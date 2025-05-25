@@ -1,0 +1,93 @@
+header {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #8179c6;
+    background-image: url('../assets/fundoHeader.png');
+}
+
+header .container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header nav {
+    width: 400px;
+}
+
+header ul {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+header ul a {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+}
+
+header img {
+    height: 110px;
+}
+
+
+.burge {
+    display: none;
+}
+
+@media only screen and (min-width: 601px) {
+    header li+li {
+        border-left: 1px solid #aaa;
+        padding-left: 32px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    header .container {
+        width: 100%;
+        display: block;
+    }
+
+    header nav {
+        display: none;
+        width: 100%;
+        margin-top: 10px;
+        padding-top: 20px;
+    }
+
+    header li {
+        padding-left: 10px;
+        padding-bottom: 15px;
+    }
+
+    header nav.is-open {
+        display: flex;
+        border-top: solid 1px #ccc;
+    }
+
+    .burge {
+        display: block;
+        margin-left: 30px;
+        font-size: 40px;
+        position: absolute;
+        top: 45px;
+        right: 30px;
+        color: white;
+        cursor: pointer;
+    }
+
+    nav ul {
+        display: block;
+    }
+
+    nav ul li {
+        border: 0;
+    }
+
+}
