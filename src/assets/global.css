@@ -20,3 +20,53 @@ body {
     background-image: url('../assets/fundo.png');
 }
 
+.apresentacao {
+    display: flex;
+    padding-top: 20px;
+}
+
+.dv-foto {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.foto-eu {
+    margin: 70px 30px;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.dv-desc {
+    width: 55%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sobre-mim {
+    position: relative;
+    margin: 70px 30px;
+    background-color: #f2b461;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    color: white;
+    font-size: 26px;
+    padding: 30px;
+}
+
+.sobre-mim-2 {
+    position: absolute;
+    bottom: -160px;
+    right: -75px;
+
+    padding: 25px;
+    background-color: #7f77c4;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+/* a partir do momento que fica menor que o tamanho do container, já mudar pro modo mobi */

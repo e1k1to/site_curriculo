@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+body {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/fundo.png');
+}
+
+.apresentacao {
+    display: flex;
+}
+
+.dv-foto {
+    width: 50%;
+    background-color: red;
+}
+
+.sobremim {
+    width: 50%;
+    background-color: blue;
+}
+
+.foto-eu {
+    width: 100%;
+    width: auto;
+    height: auto;
+}
+
+
+
+
