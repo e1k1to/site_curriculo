@@ -20,7 +20,7 @@ body {
     background-image: url('../assets/fundo.png');
 }
 
-.apresentacao {
+.dv-apresentacao {
     display: flex;
     padding-top: 20px;
 }
@@ -60,12 +60,44 @@ body {
     position: absolute;
     bottom: -160px;
     right: -75px;
-
     padding: 25px;
     background-color: #7f77c4;
     width: 400px;
     height: 200px;
     border-radius: 10px;
+}
+
+.dv-skills {
+    position: relative;
+    padding-top: 50px;
+}
+
+.titulo-skills {
+    font-size: 2em;
+    margin-left: 30px;
+    color: #7f77c4;
+}
+
+.skills {
+    width: 600px;
+    height: 400px;
+    margin: 50px 100px;
+    background-color: #f2b461;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 26px;
+}
+
+.skills-2 {
+    width: 600px;
+    height: 400px;
+    margin: 50px 500px;
+    padding: 25px;
+    background-color: #7f77c4;
+    border-radius: 10px;
+    color: white;
+    font-size: 26px;
 }
 
 
