@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { HashRouter, Routes, Route } from 'react-router-dom'
 import { SobreMim } from './Pages/SobreMim.tsx'
 import { Home } from './Pages/Home.tsx'

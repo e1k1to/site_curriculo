@@ -13,20 +13,20 @@ export function GlobalHeader() {
 
     return (
             <header>
-            <div class="container">
+            <div className="container">
             <div id="logo">
             <a href="#">
             <img src={logo} alt="Logo do site"/>
             </a>
             </div>
-            <nav class={` ${isAberto ? "is-open" : ""} `}>
+            <nav className={` ${isAberto ? "is-open" : ""} `}>
             <ul>
                 <li><a href="#"> Home </a></li>
                 <li><a href="#/projetos"> Projetos </a></li>
                 <li><a href="#"> Contato </a></li>
             </ul>
             </nav>
-            <a class='burge' onClick={toggleMenu}>&#9776;</a>
+            <a className='burge' onClick={toggleMenu}>&#9776;</a>
             </div>
             </header>
     )
