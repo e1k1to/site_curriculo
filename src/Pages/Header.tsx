@@ -1,6 +1,6 @@
 import '../assets/header.css'
 import '../assets/global.css'
-import logo from '../assets/logo.jpg'
+import logo from '../assets/logo.png'
 import { useState } from "react";
 
 export function GlobalHeader() {

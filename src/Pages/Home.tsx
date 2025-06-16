@@ -13,14 +13,29 @@ export function Home() {
                 </div>
                 <div class="dv-desc">
                     <div class="sobre-mim">
+                    <p class="sobre-mim-titulo">
+                    Oii, eu sou o <strong>Eiki</strong>!
+                    </p>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    Sou formado em Ciência da Computação pela <strong>Universidade Presbiteriana Mackenzie</strong>, desde dezembro de 2024! 
                     </p>
                         <div class="sobre-mim-2">
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                                Tendo <strong><a class="sobre-mim-link" href="https://github.com/e1k1to">experiência</a></strong> com diversas linguagens de programação,</p>
+                                <p>
+                                Estou em busca de vagas Júnior na área de Tecnologia de Informação, preferencialmente trabalhando com programação.
+                                
                             </p>
                         </div>
+                    </div>
+                    <img src={foto} class="foto-eu-mobile"/>
+                    <div class="sobre-mim-2-mobile">
+                        <p>
+                            Tendo <strong><a class="sobre-mim-link" href="https://github.com/e1k1to">experiência</a></strong> com diversas linguagens de programação,</p>
+                            <p>
+                            Estou em busca de vagas Júnior na área de Tecnologia de Informação, preferencialmente trabalhando com programação.
+                            
+                        </p>
                     </div>
                 </div>
             </div>
@@ -28,12 +43,28 @@ export function Home() {
                 <h2 class="titulo-skills"> Habilidades Técnicas </h2>
                 <div class="skills">
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    <strong> Linguagens de programação: </strong>
+                    <ul>
+                        <li> Python Intermediário</li>
+                        <li> HTML/CSS Intermediário </li>
+                        <li> JavaScript Básico </li>
+                        <li> Java Básico </li>
+                        <li> C# Básico </li>
+                        <li> SQL Básico </li>
+                    </ul>
                     </p>
                 </div>
                 <div class="skills-2">
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    <strong> Softwares: </strong>
+                    <ul>
+                        <li> GitHub Intermediário</li>
+                        <li> Linux Intermediário</li>
+                        <li> Windows Intermediário</li>
+                        <li> Word Intermediário</li>
+                        <li> Excel Intermediário</li>
+                        <li> Powerpoint Básico</li>
+                    </ul>
                     </p>
                 </div>
             </div>

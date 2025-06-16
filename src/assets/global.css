@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/static/Montserrat-Regular.ttf');
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -38,6 +44,14 @@ body {
     border-radius: 10px;
 }
 
+.foto-eu-mobile {
+    display: none;
+    width: 90%;
+    margin: 30px;
+    height: auto;
+    border-radius: 10px;
+}
+
 .dv-desc {
     width: 55%;
     display: flex;
@@ -45,36 +59,70 @@ body {
 }
 
 .sobre-mim {
+    font-family: 'Montserrat';
+    text-align: center;
     position: relative;
     margin: 70px 30px;
     background-color: #f2b461;
-    width: 500px;
+    width: 600px;
     height: 300px;
     border-radius: 10px;
     color: white;
-    font-size: 26px;
+    font-size: 24px;
     padding: 30px;
+}
+
+.sobre-mim-link {
+    color: white;
+    text-decoration: underline dotted;
+}
+
+.sobre-mim-titulo {
+    font-size: 1.3em;
+    margin: 8px 0 16px 0;
 }
 
 .sobre-mim-2 {
     position: absolute;
-    bottom: -160px;
-    right: -75px;
+    bottom: -170px;
+    right: -30px;
     padding: 25px;
     background-color: #7f77c4;
-    width: 400px;
-    height: 200px;
+    width: 550px;
+    height: 250px;
     border-radius: 10px;
+}
+
+.sobre-mim-2-mobile {
+    font-family: 'Montserrat';
+    text-align: center;
+    margin: 70px 30px;
+    background-color: #7f77c4;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    padding: 40px 30px;
+    display: none;
+}
+
+.sobre-mim-2 p {
+    margin: 8px 0;
 }
 
 .dv-skills {
     position: relative;
     padding-top: 50px;
+    list-style-position: inside;
+}
+
+.dv-skills li {
+    margin-top: 16px;
 }
 
 .titulo-skills {
-    font-size: 2em;
+    font-size: 3em;
     margin-left: 30px;
+    margin-bottom: 70px;
     color: #7f77c4;
 }
 
@@ -100,5 +148,56 @@ body {
     font-size: 26px;
 }
 
-
 /* a partir do momento que fica menor que o tamanho do container, já mudar pro modo mobi */
+@media only screen and (max-width: 1180px) {
+    .dv-apresentacao {
+        display: block;
+        padding-top: 20px;
+    }
+    .dv-foto {
+        display: none;
+    }
+
+    .dv-desc {
+        display: block;
+        width: auto;
+    }
+    
+    .sobre-mim {
+        margin: 30px;
+        width: auto;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .sobre-mim-2 {
+        display: none;
+    }
+
+    .sobre-mim-2-mobile {
+        display: block;
+    }
+
+    .foto-eu-mobile {
+        display: block;
+    }
+    .dv-skills {
+        padding: 0;
+        margin-bottom: 64px;
+    }
+    .titulo-skills {
+        margin: 50px;
+        padding: auto;
+    }
+    .skills {
+        width: 600px;
+        height: 400px;
+        margin: 30px auto;
+    }
+    .skills-2 {
+        width: 600px;
+        height: 400px;
+        margin: auto;
+    }
+
+}
