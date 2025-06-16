@@ -1,6 +1,7 @@
-import '../assets/header.css'
-import '../assets/global.css'
-import logo from '../assets/logo.png'
+import '../assets/cssFiles/global.css'
+import '../assets/cssFiles/header.css'
+import logo from '../assets/images/logo.png'
+import foto from '../assets/images/foto.webp'
 import { useState } from "react";
 
 export function GlobalHeader() {

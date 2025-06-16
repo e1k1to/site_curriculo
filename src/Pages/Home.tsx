@@ -1,5 +1,6 @@
-import '../assets/global.css'
-import foto from '../assets/foto.webp'
+import '../assets/cssFiles/global.css'
+import '../assets/cssFiles/home.css'
+import foto from '../assets/images/foto.webp'
 import { GlobalHeader } from '../Pages/Header.tsx'
 
 export function Home() {
@@ -44,6 +45,7 @@ export function Home() {
                 <div className="skills">
                     <p>
                     <strong> Linguagens de programação: </strong>
+                    </p>
                     <ul>
                         <li> Python Intermediário</li>
                         <li> HTML/CSS Intermediário </li>
@@ -52,11 +54,11 @@ export function Home() {
                         <li> C# Básico </li>
                         <li> SQL Básico </li>
                     </ul>
-                    </p>
                 </div>
                 <div className="skills-2">
                     <p>
                     <strong> Softwares: </strong>
+                    </p>
                     <ul>
                         <li> GitHub Intermediário</li>
                         <li> Linux Intermediário</li>
@@ -65,7 +67,6 @@ export function Home() {
                         <li> Excel Intermediário</li>
                         <li> Powerpoint Básico</li>
                     </ul>
-                    </p>
                 </div>
             </div>
         </div>
